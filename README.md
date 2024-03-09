@@ -10,3 +10,6 @@ Get Lyrics Button: For each search result, there is a "Get lyrics" button. When 
 Display Lyrics: The lyrics of the selected song are displayed below the search results.
 
 Responsive Design: The web application is designed to be responsive, ensuring that it looks good and functions well on various screen sizes, including mobile devices.
+
+
+
