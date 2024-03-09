@@ -11,5 +11,5 @@ Display Lyrics: The lyrics of the selected song are displayed below the search r
 
 Responsive Design: The web application is designed to be responsive, ensuring that it looks good and functions well on various screen sizes, including mobile devices.
 
-
+![](https://github.com/Sinodass/Lyrics-Search-Engine/blob/main/Lyrics%20Search%20Engine/images/pic0.PNG)
 
