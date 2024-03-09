@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5CDB95;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #05386B;
+}
+
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #05386B;
+    color:#fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #EDF5E1;
+}
+
+#results {
+    margin-top: 20px;
+    position: relative;
+    display: block;
+    text-align: center;
+    
+}
+.song-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% ,0);
+    background: linear-gradient(to left, 
+    #379683,
+    #379683)
+
+}
+.song-list li{
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: space-evenly;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: overline;
+    text-decoration-color: rgb(12, 147, 100);
+    position: relative;
+}
+
+.song-list li::after{
+    content: "";
+    position: absolute;
+    right: -20px;
+    left: -20px;
+    bottom: -4px;
+    height: 3px;
+    background: rgb(12, 147, 100);
+    display: inline-block;
+}
+.song-list li div{
+    float: left;
+}
+
+.song-list li .button-container {
+    float: right;
+}
+
+.song-list li span{
+    background-color: #05386B;
+    border: 0;
+    font-size: 12px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 400;
+    padding: 4px 10px;
+    text-transform: capitalize;
+}
+.btn{
+    background-color: rgb(26, 170, 115);
+    margin: 0 auto;
+    border: 0;
+    font-size: 14px;
+    border-radius: 10px;
+    color: rgb(199, 193, 193);
+    cursor: pointer;
+    font-weight: 400;
+    padding: 6px 20px;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+@media only screen and (max-width: 800px) {
+    header{
+        height: 70vh;
+        width: 95%vw;
+    }
+    .container{
+        font-size: 20px;
+        
+    }
+    form{
+        max-width: 300px;
+    }
+    input{
+        width: 100%;
+        height: 40px;
+        padding: 12px 20px;
+  
+    }
+    button{
+        width: 80px;
+        max-width: 100%;
+    }
+    .song-list li{
+        margin-bottom: 15px;
+        max-width: 300px;
+        letter-spacing: 0.5px;
+        font-size: 17px;
+        
+    }
+}
